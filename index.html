@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+    <audio id="background-music" loop>
+        <source src="./bgmusic.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="a1">
+        <h1 class="wish-main1">H A P P Y</h1>
+        <h1 class="wish-main1">B I R T H D A Y</h1>
+        <h2 class="wish-main2">TO OUR QUEEN OF BEARS !</h2>
+    </div>
+    <div class="container">
+        <div>
+            <button class="image-button" onclick="showMessage('message1')">
+                <img src="./cat-mascot-animal-illustration.png" alt="Button Image 1">
+            </button>
+        </div>
+        <div>
+            <button class="image-button" onclick="showMessage('message2')">
+                <img src="./vecteezy_cute-frog-png_22998891.PNG" alt="Button Image 2">
+            </button>
+        </div>
+    </div>
+
+    <div id="overlay" class="overlay" onclick="closeMessage()"></div>
+
+    <div id="message1" class="message-window">
+        <p>So i mean hey dear reader is the music playing? uhh my vocabulary sucks so dont gets your hopes up expecting a fancy ass wish
+            <br><br>
+            well do you remember how we even started talking? soon it turned in us sending memes to each other, ranting about the weirdest shit to each other, me being downbad all the time(thats an understatement) and much more ^o^
+            <br><br>
+            firstly, thanks for being with me for the entirety of the drop year, you were kinda the major emotional support for me, i honestly dont know how things would have ended up without you on my side so THANK YOU SO MUCHHH!!
+            <br><br>
+            as last year ended a new one is starting for both of us, well college is starting so try to have as much fun as possible ;), maybe date a few seniors too hehe
+            <br><br>
+            you finally turning 20, congratulations on becoming a young adult, lets be like the way we are for as long as possible, your momo/pookie/baby will be there for you on this side of screen always (there might be some latency issues tho)
+            <br><br>
+            oh ohh one last thing for now, LOVE YOU MY DEAR MAYYBEAR AND HAPPY BIRTHDAY!!</p>
+    </div>
+
+    <div id="message2" class="message-window">
+        <p>
+            happy birthday love 
+            <br><br>
+            u r starting the 20th yr of ur life today (EMPHASIS ON THE 20). Do u feel like an adult yet? do u think we'll make it? i hope we do. i hope we can smile at each other one day while saying 'we did it'. 
+            <br><br>
+            they say friends are the family you choose, so im glad i chose smn as amazing as u. may this year bring you more questionable decisions we can reminisce about later? good luck on another year of friendship, silliness, and maybe even some real adulting skills (but probably not).
+            <br><br>
+            i hope u get to make a lot of new friends, as well as memories u can look back on later tho.
+            <br><br>
+            you have always been good w your words and i have always admired u for that. its been yrs since i first met you and you r still like a bright sparkling star i look up to tbh. thanks a lot for making me happy mayu, there's no one else like you <3
+            <br><br>
+            tanmoy suggested that i gift you a collage with all our pics and i cried ab how we in fact dont have enough pics together to suffice for that, so yea lets fulfill our yearly photo quota atleast (1 decent pic/yr)? 
+            <br><br>
+            to my fav writer, happy birthday again. i love you pookie
+        </p>
+    </div>
+   
+    <div id="gift" class="container">
+        <button class="image-button" onclick="openlink('http://drive.google.com/drive/folders/1k-bd4ShTXUzpVNP7WnZDe15KVzTkETys?usp=drive_link')";>
+            <img src="gift button.png">
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+    
+    
+</body>
+</html>
