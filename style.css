@@ -5,16 +5,17 @@
     
 }
 
-.patrick-hand-sc-regular {
-    font-family: "Patrick Hand SC", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
+.caveat {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
 
 p{
-    font-family: "Patrick Hand SC";
+    font-family: "Caveat";
+    font-weight: 500;
     font-size: large;
-    font-weight: 400;
 }
 
 body{
