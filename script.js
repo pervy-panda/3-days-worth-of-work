@@ -34,4 +34,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     document.addEventListener('click', playAudio);
     document.addEventListener('touchstart', playAudio);
+    document.addEventListener('touchend', playAudio);
+    document.addEventListener('touchmove', playAudio);
 });
